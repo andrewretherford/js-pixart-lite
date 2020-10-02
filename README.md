@@ -1,3 +1,5 @@
+# ![](images/ga.png)
+
 # Pixart
 
 For this assignment you'll be creating a Javascript painting app. When you're done, [it should display this functionality](http://ga-wdi-exercises.github.io/pixart_js/).
