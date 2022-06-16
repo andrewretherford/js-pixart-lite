@@ -1,10 +1,24 @@
 @import url(http://fonts.googleapis.com/css?family=Monoton);
 
-.brush {
+.brush, .swatch {
   width: 100px;
   height: 100px;
   background: #1B4370;
   margin: 15px auto;
+}
+
+.swatch {
+  display: inline-block;
+}
+
+#swatch-one {
+  background-color: red;
+}
+#swatch-two {
+  background-color: lightblue;
+}
+#swatch-three {
+  background-color: lightcoral;
 }
 
 .square {
