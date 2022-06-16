@@ -13,19 +13,16 @@ setColor.addEventListener('click', () => {
 })
 
 swatchOne.addEventListener('click', () => {
-    swatchOne.style.backgroundColor = 'red'
-    brush.style.background = swatchOne.style.backgroundColor
+    brush.style.background = window.getComputedStyle(swatchOne, null).getPropertyValue("background-color")
     console.log(swatchOne.style.color)
 })
 
 swatchTwo.addEventListener('click', () => {
-    swatchTwo.style.backgroundColor = 'lightblue'
-    brush.style.backgroundColor = swatchTwo.style.backgroundColor
+    brush.style.backgroundColor = window.getComputedStyle(swatchTwo, null).getPropertyValue("background-color")
 })
 
 swatchThree.addEventListener('click', () => {
-    swatchThree.style.backgroundColor = 'lightcoral'
-    brush.style.backgroundColor = swatchThree.style.backgroundColor
+    brush.style.backgroundColor = window.getComputedStyle(swatchThree, null).getPropertyValue("background-color")
 })
 
 for(let i=0; i < 8000; i++){
